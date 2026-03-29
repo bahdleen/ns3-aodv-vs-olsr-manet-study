@@ -1,0 +1,227 @@
+{
+  "protocol": "OLSR",
+  "simulation_time_s": 70.0,
+  "file_pattern": "results/raw/batch_OLSR_*.xml",
+  "application_port_range": [
+    9000,
+    9001
+  ],
+  "per_run": [
+    {
+      "file": "batch_OLSR_1.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 1465,
+      "rx_packets": 376,
+      "lost_packets": 28,
+      "tx_bytes": 791100,
+      "rx_bytes": 203040,
+      "throughput_bps": 23204.571428571428,
+      "throughput_mbps": 0.02320457142857143,
+      "pdr_percent": 25.665529010238906,
+      "loss_percent": 74.33447098976109,
+      "avg_delay_s": 0.0018308351063829787,
+      "avg_delay_ms": 1.8308351063829786,
+      "avg_jitter_s": 7.246356382978724e-05,
+      "avg_jitter_ms": 0.07246356382978723
+    },
+    {
+      "file": "batch_OLSR_10.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 6733,
+      "rx_packets": 4797,
+      "lost_packets": 0,
+      "tx_bytes": 3635820,
+      "rx_bytes": 2590380,
+      "throughput_bps": 296043.4285714286,
+      "throughput_mbps": 0.29604342857142857,
+      "pdr_percent": 71.24610129214317,
+      "loss_percent": 28.753898707856823,
+      "avg_delay_s": 0.0007790869293308318,
+      "avg_delay_ms": 0.7790869293308318,
+      "avg_jitter_s": 1.915332499478841e-05,
+      "avg_jitter_ms": 0.01915332499478841
+    },
+    {
+      "file": "batch_OLSR_2.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 2209,
+      "rx_packets": 265,
+      "lost_packets": 1944,
+      "tx_bytes": 1192860,
+      "rx_bytes": 143100,
+      "throughput_bps": 16354.285714285714,
+      "throughput_mbps": 0.016354285714285714,
+      "pdr_percent": 11.99637845178814,
+      "loss_percent": 88.00362154821187,
+      "avg_delay_s": 0.3403181132075471,
+      "avg_delay_ms": 340.3181132075471,
+      "avg_jitter_s": 0.004948150943396227,
+      "avg_jitter_ms": 4.948150943396227
+    },
+    {
+      "file": "batch_OLSR_3.xml",
+      "application_flow_count": 2,
+      "included_flow_ids": [
+        1,
+        2
+      ],
+      "tx_packets": 6180,
+      "rx_packets": 641,
+      "lost_packets": 1389,
+      "tx_bytes": 3337200,
+      "rx_bytes": 346140,
+      "throughput_bps": 39558.857142857145,
+      "throughput_mbps": 0.039558857142857146,
+      "pdr_percent": 10.372168284789645,
+      "loss_percent": 89.62783171521036,
+      "avg_delay_s": 0.5031840873634945,
+      "avg_delay_ms": 503.18408736349454,
+      "avg_jitter_s": 0.019492308892355693,
+      "avg_jitter_ms": 19.49230889235569
+    },
+    {
+      "file": "batch_OLSR_4.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 14611,
+      "rx_packets": 12918,
+      "lost_packets": 0,
+      "tx_bytes": 7889940,
+      "rx_bytes": 6975720,
+      "throughput_bps": 797225.1428571428,
+      "throughput_mbps": 0.7972251428571429,
+      "pdr_percent": 88.41283964136609,
+      "loss_percent": 11.587160358633906,
+      "avg_delay_s": 0.000709763121226196,
+      "avg_delay_ms": 0.709763121226196,
+      "avg_jitter_s": 2.1873819476699178e-05,
+      "avg_jitter_ms": 0.02187381947669918
+    },
+    {
+      "file": "batch_OLSR_5.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 7975,
+      "rx_packets": 5235,
+      "lost_packets": 2740,
+      "tx_bytes": 4306500,
+      "rx_bytes": 2826900,
+      "throughput_bps": 323074.28571428574,
+      "throughput_mbps": 0.32307428571428576,
+      "pdr_percent": 65.64263322884013,
+      "loss_percent": 34.357366771159874,
+      "avg_delay_s": 0.01996523400191022,
+      "avg_delay_ms": 19.965234001910222,
+      "avg_jitter_s": 0.00037976313276026744,
+      "avg_jitter_ms": 0.37976313276026746
+    },
+    {
+      "file": "batch_OLSR_6.xml",
+      "application_flow_count": 2,
+      "included_flow_ids": [
+        1,
+        2
+      ],
+      "tx_packets": 8721,
+      "rx_packets": 6007,
+      "lost_packets": 2714,
+      "tx_bytes": 4709340,
+      "rx_bytes": 3243780,
+      "throughput_bps": 370717.71428571426,
+      "throughput_mbps": 0.37071771428571426,
+      "pdr_percent": 68.87971562894164,
+      "loss_percent": 31.120284371058364,
+      "avg_delay_s": 0.11696409189279174,
+      "avg_delay_ms": 116.96409189279174,
+      "avg_jitter_s": 0.0011481871150324622,
+      "avg_jitter_ms": 1.1481871150324623
+    },
+    {
+      "file": "batch_OLSR_7.xml",
+      "application_flow_count": 2,
+      "included_flow_ids": [
+        1,
+        2
+      ],
+      "tx_packets": 6981,
+      "rx_packets": 1423,
+      "lost_packets": 2134,
+      "tx_bytes": 3769740,
+      "rx_bytes": 768420,
+      "throughput_bps": 87819.42857142857,
+      "throughput_mbps": 0.08781942857142856,
+      "pdr_percent": 20.383899154848876,
+      "loss_percent": 79.61610084515112,
+      "avg_delay_s": 0.09914406184118062,
+      "avg_delay_ms": 99.14406184118062,
+      "avg_jitter_s": 0.00215698383696416,
+      "avg_jitter_ms": 2.15698383696416
+    },
+    {
+      "file": "batch_OLSR_8.xml",
+      "application_flow_count": 0,
+      "included_flow_ids": [],
+      "tx_packets": 0,
+      "rx_packets": 0,
+      "lost_packets": 0,
+      "tx_bytes": 0,
+      "rx_bytes": 0,
+      "throughput_bps": 0.0,
+      "throughput_mbps": 0.0,
+      "pdr_percent": 0.0,
+      "loss_percent": 0.0,
+      "avg_delay_s": 0.0,
+      "avg_delay_ms": 0.0,
+      "avg_jitter_s": 0.0,
+      "avg_jitter_ms": 0.0
+    },
+    {
+      "file": "batch_OLSR_9.xml",
+      "application_flow_count": 1,
+      "included_flow_ids": [
+        1
+      ],
+      "tx_packets": 2352,
+      "rx_packets": 1061,
+      "lost_packets": 0,
+      "tx_bytes": 1270080,
+      "rx_bytes": 572940,
+      "throughput_bps": 65478.857142857145,
+      "throughput_mbps": 0.06547885714285714,
+      "pdr_percent": 45.11054421768708,
+      "loss_percent": 54.88945578231292,
+      "avg_delay_s": 0.19867012252591892,
+      "avg_delay_ms": 198.6701225259189,
+      "avg_jitter_s": 0.003681809613572102,
+      "avg_jitter_ms": 3.681809613572102
+    }
+  ],
+  "summary": {
+    "runs": 10,
+    "avg_application_flow_count": 1.2,
+    "avg_throughput_bps": 201947.65714285715,
+    "avg_throughput_mbps": 0.20194765714285715,
+    "avg_pdr_percent": 40.77098089106437,
+    "avg_loss_percent": 49.22901910893563,
+    "avg_delay_s": 0.12815653959897833,
+    "avg_delay_ms": 128.15653959897833,
+    "avg_jitter_s": 0.0031920694242382184,
+    "avg_jitter_ms": 3.1920694242382184,
+    "avg_tx_packets": 5722.7,
+    "avg_rx_packets": 3272.3,
+    "avg_lost_packets": 1094.9
+  }
+}

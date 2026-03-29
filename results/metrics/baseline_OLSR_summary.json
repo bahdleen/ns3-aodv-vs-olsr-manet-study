@@ -1,0 +1,47 @@
+{
+  "protocol": "OLSR",
+  "simulation_time_s": 60.0,
+  "file_pattern": "results/raw/baseline_OLSR_*.xml",
+  "application_port_range": [
+    9000,
+    9004
+  ],
+  "per_run": [
+    {
+      "file": "baseline_OLSR_1.xml",
+      "application_flow_count": 2,
+      "included_flow_ids": [
+        1,
+        2
+      ],
+      "tx_packets": 4852,
+      "rx_packets": 1745,
+      "lost_packets": 2704,
+      "tx_bytes": 2620080,
+      "rx_bytes": 942300,
+      "throughput_bps": 125640.0,
+      "throughput_mbps": 0.12564,
+      "pdr_percent": 35.96455070074196,
+      "loss_percent": 64.03544929925803,
+      "avg_delay_s": 0.0011130303724928368,
+      "avg_delay_ms": 1.1130303724928368,
+      "avg_jitter_s": 6.356217765042981e-05,
+      "avg_jitter_ms": 0.0635621776504298
+    }
+  ],
+  "summary": {
+    "runs": 1,
+    "avg_application_flow_count": 2,
+    "avg_throughput_bps": 125640.0,
+    "avg_throughput_mbps": 0.12564,
+    "avg_pdr_percent": 35.96455070074196,
+    "avg_loss_percent": 64.03544929925803,
+    "avg_delay_s": 0.0011130303724928368,
+    "avg_delay_ms": 1.1130303724928368,
+    "avg_jitter_s": 6.356217765042981e-05,
+    "avg_jitter_ms": 0.0635621776504298,
+    "avg_tx_packets": 4852,
+    "avg_rx_packets": 1745,
+    "avg_lost_packets": 2704
+  }
+}
