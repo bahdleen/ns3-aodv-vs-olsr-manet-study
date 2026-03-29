@@ -49,6 +49,7 @@ results/csv/                    Tabular exports
 results/charts/                 Publication-ready figures
 results/ai/                     Optional AI-assisted interpretation outputs
 research/                       Methodology and findings notes
+research/latex/                 LaTeX manuscript source archive
 ```
 
 Early one-off helper scripts that were not part of the final published workflow were moved into `scripts/archive/`.
@@ -89,6 +90,10 @@ This step is much slower because it regenerates the raw XML data first:
 ## Optional AI Interpretation
 
 The repository includes an optional post-processing script, `scripts/ask_ai.py`, for turning the numeric summaries into a short structured interpretation. It is disabled by default unless you provide an API URL through `MANET_ANALYZE_API_URL`.
+
+## Manuscript Source
+
+The LaTeX submission bundle is included at `research/latex/AODV_vs_OLSR_MANET_Comparison_in_ns_3.zip`.
 
 ## Notes On Scope
 
