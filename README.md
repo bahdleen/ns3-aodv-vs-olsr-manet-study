@@ -49,7 +49,7 @@ results/csv/                    Tabular exports
 results/charts/                 Publication-ready figures
 results/ai/                     Optional AI-assisted interpretation outputs
 research/                       Methodology and findings notes
-research/latex/                 LaTeX manuscript source archive
+research/latex/                 LaTeX archive and browsable manuscript source
 ```
 
 Early one-off helper scripts that were not part of the final published workflow were moved into `scripts/archive/`.
@@ -94,6 +94,7 @@ The repository includes an optional post-processing script, `scripts/ask_ai.py`,
 ## Manuscript Source
 
 The LaTeX submission bundle is included at `research/latex/AODV_vs_OLSR_MANET_Comparison_in_ns_3.zip`.
+The extracted source is also available under `research/latex/source/`, so GitHub can display files such as `research/latex/source/_main.tex` and `research/latex/source/references.bib` directly in the browser.
 
 ## Notes On Scope
 
