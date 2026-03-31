@@ -1,0 +1,50 @@
+{
+  "protocol": "AODV",
+  "simulation_time_s": 70.0,
+  "file_pattern": "results/raw/warm_AODV_*.xml",
+  "application_port_range": [
+    9000,
+    9004
+  ],
+  "per_run": [
+    {
+      "file": "warm_AODV_1.xml",
+      "application_flow_count": 5,
+      "included_flow_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tx_packets": 73245,
+      "rx_packets": 13625,
+      "lost_packets": 56986,
+      "tx_bytes": 39552300,
+      "rx_bytes": 7357500,
+      "throughput_bps": 840857.1428571428,
+      "throughput_mbps": 0.8408571428571429,
+      "pdr_percent": 18.60195235169636,
+      "loss_percent": 81.39804764830365,
+      "avg_delay_s": 0.014667635229357797,
+      "avg_delay_ms": 14.667635229357797,
+      "avg_jitter_s": 0.0025867485504587153,
+      "avg_jitter_ms": 2.5867485504587155
+    }
+  ],
+  "summary": {
+    "runs": 1,
+    "avg_application_flow_count": 5,
+    "avg_throughput_bps": 840857.1428571428,
+    "avg_throughput_mbps": 0.8408571428571429,
+    "avg_pdr_percent": 18.60195235169636,
+    "avg_loss_percent": 81.39804764830365,
+    "avg_delay_s": 0.014667635229357797,
+    "avg_delay_ms": 14.667635229357797,
+    "avg_jitter_s": 0.0025867485504587153,
+    "avg_jitter_ms": 2.5867485504587155,
+    "avg_tx_packets": 73245,
+    "avg_rx_packets": 13625,
+    "avg_lost_packets": 56986
+  }
+}

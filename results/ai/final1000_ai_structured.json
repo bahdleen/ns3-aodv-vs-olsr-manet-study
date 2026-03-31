@@ -1,0 +1,50 @@
+{
+  "scenario_summary": {
+    "nodes": 20,
+    "flows_configured": 2,
+    "area": "300x300m",
+    "mobility_model": "RandomWaypoint",
+    "speed_range_mps": "1-3",
+    "pause_time_s": 2,
+    "traffic_type": "UDP CBR",
+    "packet_size_bytes": 512,
+    "simulation_time_s": 70,
+    "warmup_note": "client traffic starts at 10 seconds",
+    "runs_per_protocol": 1000
+  },
+  "protocol_summary": {
+    "AODV": {
+      "throughput_mbps": 0.4188013508571429,
+      "pdr_percent": 23.162444535463173,
+      "loss_percent": 76.83755546453683,
+      "avg_delay_ms": 86.71874313792328,
+      "avg_jitter_ms": 2.894094433337642,
+      "avg_application_flow_count": 2
+    },
+    "OLSR": {
+      "throughput_mbps": 0.3282181097142857,
+      "pdr_percent": 52.25826941100843,
+      "loss_percent": 34.54173058899158,
+      "avg_delay_ms": 57.873730428358584,
+      "avg_jitter_ms": 1.3400984900545723,
+      "avg_application_flow_count": 1.264
+    }
+  },
+  "comparison": {
+    "throughput_winner": "AODV",
+    "pdr_winner": "OLSR",
+    "loss_winner": "OLSR",
+    "delay_winner": "OLSR",
+    "jitter_winner": "OLSR",
+    "flow_consistency_winner": "AODV"
+  },
+  "interpretation": {
+    "overall_trend": "OLSR achieved stronger delivery efficiency than AODV in the active flows observed, while AODV maintained the configured flow count more consistently.",
+    "largest_difference": "The largest difference is in packet delivery ratio and loss, where OLSR clearly outperformed AODV.",
+    "likely_technical_cause": "OLSR\u2019s proactive routing likely supported better path availability for active flows, while AODV\u2019s reactive behaviour may have introduced route establishment or maintenance penalties under the chosen mobility conditions.",
+    "fairness_note": "The comparison is affected by unequal active application flow counts because AODV averaged 2.0 while OLSR averaged 1.264. This means OLSR\u2019s better delivery metrics were achieved on a less consistent flow set.",
+    "recommendation": "Present OLSR as superior in per-flow delivery quality under this scenario, but state clearly that AODV was more consistent in preserving the configured traffic pattern.",
+    "confidence_note": "Confidence in the measured averages is high because 1000 runs were completed per protocol, but confidence in a simple overall winner is reduced by the unequal active flow count."
+  },
+  "report_ready_summary": "Across 1000 runs per protocol, OLSR achieved higher packet delivery ratio, lower loss, lower delay, and lower jitter than AODV in the flows that remained active. AODV, however, maintained the configured application-flow count more consistently across the experiment. This means OLSR showed better per-flow delivery quality, while AODV showed stronger flow persistence under the tested MANET conditions. The final interpretation should therefore reflect both performance quality and flow-consistency differences."
+}

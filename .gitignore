@@ -6,6 +6,7 @@
 *.o
 *.pyc
 *.pyo
+__pycache__/
 
 *.cwnd
 *.dat
@@ -25,6 +26,9 @@ testpy-output
 bindings/python/pybindgen/
 
 venv/
+.venv/
+report_runs/
+results/failed_runs.log
 
 ms_print.*
 massif.*
